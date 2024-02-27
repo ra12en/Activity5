@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-servers',
   templateUrl: './servers.component.html',
-  styleUrls: ['./servers.component.css']
+  styleUrls: ['./servers.component.css', '../../node_modules/bootstrap/dist/css/bootstrap.min.css']
 })
 export class ServersComponent {    
     serverAdded: boolean = false;
